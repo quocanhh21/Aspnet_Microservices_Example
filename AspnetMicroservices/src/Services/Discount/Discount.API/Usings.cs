@@ -5,3 +5,4 @@ global using Discount.API.Repositories.Interfaces;
 global using Microsoft.AspNetCore.Mvc;
 global using Npgsql;
 global using System.Net;
+global using Discount.API.Extensions;

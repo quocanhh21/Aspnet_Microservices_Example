@@ -11,6 +11,9 @@ builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 
 var app = builder.Build();
 
+// Migrate database
+app.MigrateDatabase<Program>();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
