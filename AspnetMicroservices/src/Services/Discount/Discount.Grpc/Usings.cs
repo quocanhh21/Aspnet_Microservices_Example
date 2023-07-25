@@ -5,3 +5,7 @@ global using Discount.Grpc.Repositories.Implementation;
 global using Discount.Grpc.Repositories.Interfaces;
 global using Npgsql;
 global using Polly;
+global using Discount.Grpc.Protos;
+global using Discount.Grpc.Services;
+global using AutoMapper;
+global using Grpc.Core;
